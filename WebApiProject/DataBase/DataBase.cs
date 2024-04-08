@@ -4,7 +4,7 @@ namespace WebApiProject.DataBase;
 
 public class DataBase
 {
-    public static List<Animal> Animlas = new()
+    public static List<Animal> Animals = new()
     {
         new Animal{Id = 1,Name = "Reksio",Type = "Dog",Mass = 4.5,FurColor = "Black"},
         new Animal{Id = 2, Name = "Whiskers", Type = "Cat", Mass = 3.2, FurColor = "White"},
